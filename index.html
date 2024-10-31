@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgb(244, 184, 184);
+}
+
+.navbar .container{
+    max-width: 1440px;
+    /* background-color: aqua; */
+    margin:0 auto;
+}
+
+.container .navbar-container{
+    display: flex;
+    /* background-color: rgb(243, 243, 0); */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   
+}
+
+.navbar-container img{
+    max-width: 25px;
+}
+
+.navbar-container ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-container ul a{
+    text-decoration:none;
+}
+
+.welcome-section{
+    background-color: aquamarine;
+    padding: 10px 0px;
+}
+
+.container .welcome-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-page h2{
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 0cap8;
+}
+
+.welcome-page p{
+    max-width: 400px;
+    font-size: 1.4rem;
+}
+
+.section-page{
+    background-color: rgb(208, 245, 170);
+    padding: 10px;
+}
+
+.container .services{
+    font-family: sans-serif;
+}
+
+.container .services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .text{
+    display: flex;
+    align-items: center;
+    background-color: seagreen;
+    max-width: 400px;
+    text-align: center;
+}
+
+.services img{
+    max-width: 40px;
+}
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-container">
+                <div><img src="ve.png" alt=""></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="welcome-section">
+        <div class="container">
+            <div class="welcome-page">
+                <h2>Welcome</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusamus voluptates facilis ea! Vel
+                    labore optio minima eius obcaecati ipsum ducimus architecto in sequi voluptatum, quia laborum
+                    placeat perspiciatis. Ea?</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="section-page">
+        <div class="container">
+            <div class="services">
+
+                <img src="ve.png" alt="Web">
+                <img src="ve.png" alt="UX">
+                <img src="ve.png" alt="SEO">
+
+                <div class="text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
